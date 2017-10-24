@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Sepatu Boots Formal Wanita - US 025 Murah,sepatu-boots-formal-wanita-us-025,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Sepatu Boot Kasual Wanita - AY 604 Murah,sepatu-boot-kasual-wanita-ay-604,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Sepatu Boots Formal Wanita - US 025 Murah,sepatu-boots-formal-wanita-us-025
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,18 @@ Jual Sepatu Boots Formal Wanita - US 025 Murah,sepatu-boots-formal-wanita-us-025
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Formal Wanita - US 025 dengan bahan LEATHER ini dijamin awet.<br/>Kode : US 025<br/>Warna : HITAM<br/>Bahan : LEATHER<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : 5<br>
+         <p>Sepatu Boot Kasual Wanita - AY 604 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : AY 604<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +72,8 @@ Jual Sepatu Boots Formal Wanita - US 025 Murah,sepatu-boots-formal-wanita-us-025
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan LEATHER, Ukuran 36 - 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/216-us-025.jpg,Sepatu Boots Formal Wanita - US 025,Rp 175.900,US 025,Baru
-Jual Sepatu Boots Formal Wanita - GU 004 Murah,sepatu-boots-formal-wanita-gu-004,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/129-ay-604.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-604-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-604-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-604-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-604-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-604-e.jpg,Sepatu Boot Kasual Wanita - AY 604,Rp 162.400,Rp 190.900,Rp 28.500,AY 604,Baru
+Jual Sepatu Boot Kasual Wanita - AY 605 Murah,sepatu-boot-kasual-wanita-ay-605,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +98,7 @@ Jual Sepatu Boots Formal Wanita - GU 004 Murah,sepatu-boots-formal-wanita-gu-004
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +121,18 @@ Jual Sepatu Boots Formal Wanita - GU 004 Murah,sepatu-boots-formal-wanita-gu-004
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Formal Wanita - GU 004 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : GU 004<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : FIBER<br/>Heels : 5<br>
+         <p>Sepatu Boot Kasual Wanita - AY 605 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : AY 605<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +146,8 @@ Jual Sepatu Boots Formal Wanita - GU 004 Murah,sepatu-boots-formal-wanita-gu-004
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/217-gu-004.jpg,Sepatu Boots Formal Wanita - GU 004,Rp 136.400,GU 004,Baru
-Jual Sepatu Boots Formal Wanita - US 033 Murah,sepatu-boots-formal-wanita-us-033,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/130-ay-605.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-605-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-605-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-605-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-605-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-605-e.jpg,Sepatu Boot Kasual Wanita - AY 605,Rp 169.900,Rp 198.900,Rp 29.000,AY 605,Baru
+Jual Sepatu Boot Kasual Wanita - YE 091 Murah,sepatu-boot-kasual-wanita-ye-091,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +172,7 @@ Jual Sepatu Boots Formal Wanita - US 033 Murah,sepatu-boots-formal-wanita-us-033
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +195,18 @@ Jual Sepatu Boots Formal Wanita - US 033 Murah,sepatu-boots-formal-wanita-us-033
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Formal Wanita - US 033 dengan bahan LEATHER ini dijamin awet.<br/>Kode : US 033<br/>Warna : TAN<br/>Bahan : LEATHER<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : 5<br>
+         <p>Sepatu Boot Kasual Wanita - YE 091 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : YE 091<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 41<br/>Berat : 1 kg<br/>Info Lainnya = SOL : FIBER EMBOS<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +220,8 @@ Jual Sepatu Boots Formal Wanita - US 033 Murah,sepatu-boots-formal-wanita-us-033
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan LEATHER, Ukuran 36 - 40, Warna TAN",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/218-us-033.jpg,Sepatu Boots Formal Wanita - US 033,Rp 184.900,US 033,Baru
-Jual Sepatu Boots Formal Wanita - US 020 Murah,sepatu-boots-formal-wanita-us-020,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 41, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/131-ye-091.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-091-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-091-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-091-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-091-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-091-e.jpg,Sepatu Boot Kasual Wanita - YE 091,Rp 126.400,Rp 147.900,Rp 21.500,YE 091,Baru
+Jual Sepatu Boot Kasual Wanita - AY 602 Murah,sepatu-boot-kasual-wanita-ay-602,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +246,7 @@ Jual Sepatu Boots Formal Wanita - US 020 Murah,sepatu-boots-formal-wanita-us-020
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +269,18 @@ Jual Sepatu Boots Formal Wanita - US 020 Murah,sepatu-boots-formal-wanita-us-020
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Formal Wanita - US 020 dengan bahan LEATHER ini dijamin awet.<br/>Kode : US 020<br/>Warna : HITAM<br/>Bahan : LEATHER<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : 7<br>
+         <p>Sepatu Boot Kasual Wanita - AY 602 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : AY 602<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +294,8 @@ Jual Sepatu Boots Formal Wanita - US 020 Murah,sepatu-boots-formal-wanita-us-020
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan LEATHER, Ukuran 36 - 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/219-us-020.jpg,Sepatu Boots Formal Wanita - US 020,Rp 182.900,US 020,Baru
-Jual Sepatu Boots Casual Wanita - YE 097 Murah,sepatu-boots-casual-wanita-ye-097,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/132-ay-602.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-602-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-602-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-602-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-602-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-602-e.jpg,Sepatu Boot Kasual Wanita - AY 602,Rp 154.900,Rp 181.900,Rp 27.000,AY 602,Baru
+Jual Sepatu Boot Kasual Wanita - YE 090 Murah,sepatu-boot-kasual-wanita-ye-090,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +320,7 @@ Jual Sepatu Boots Casual Wanita - YE 097 Murah,sepatu-boots-casual-wanita-ye-097
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +343,18 @@ Jual Sepatu Boots Casual Wanita - YE 097 Murah,sepatu-boots-casual-wanita-ye-097
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - YE 097 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : YE 097<br/>Warna : COKLAT<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 41<br/>Berat : 0.9 kg<br/>Sol : FIBER<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - YE 090 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : YE 090<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 41<br/>Berat : 1 kg<br/>Info Lainnya = SOL : FIBER EMBOS<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,8 +368,8 @@ Jual Sepatu Boots Casual Wanita - YE 097 Murah,sepatu-boots-casual-wanita-ye-097
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 41, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/220-ye-097.jpg,Sepatu Boots Casual Wanita - YE 097,Rp 129.400,YE 097,Baru
-Jual Sepatu Boots Casual Wanita - YE 091 Murah,sepatu-boots-casual-wanita-ye-091,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 41, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/133-ye-090.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-090-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-090-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-090-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-090-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-090-e.jpg,Sepatu Boot Kasual Wanita - YE 090,Rp 121.900,Rp 142.900,Rp 21.000,YE 090,Baru
+Jual Sepatu Boot Kasual Wanita - AY 603 Murah,sepatu-boot-kasual-wanita-ay-603,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -339,6 +394,7 @@ Jual Sepatu Boots Casual Wanita - YE 091 Murah,sepatu-boots-casual-wanita-ye-091
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -361,8 +417,18 @@ Jual Sepatu Boots Casual Wanita - YE 091 Murah,sepatu-boots-casual-wanita-ye-091
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - YE 091 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : YE 091<br/>Warna : COKLAT<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 41<br/>Berat : 0.9 kg<br/>Sol : FIBER<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - AY 603 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : AY 603<br/>Warna : MARUN<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -376,8 +442,8 @@ Jual Sepatu Boots Casual Wanita - YE 091 Murah,sepatu-boots-casual-wanita-ye-091
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 41, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/221-ye-091.jpg,Sepatu Boots Casual Wanita - YE 091,Rp 126.400,YE 091,Baru
-Jual Sepatu Boots Casual Wanita - DO 027 Murah,sepatu-boots-casual-wanita-do-027,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna MARUN",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/134-ay-603.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-603-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-603-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-603-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-603-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ay-603-e.jpg,Sepatu Boot Kasual Wanita - AY 603,Rp 162.400,Rp 190.900,Rp 28.500,AY 603,Baru
+Jual Sepatu Boot Kasual Wanita - YE 104 Murah,sepatu-boot-kasual-wanita-ye-104,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -402,6 +468,7 @@ Jual Sepatu Boots Casual Wanita - DO 027 Murah,sepatu-boots-casual-wanita-do-027
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -424,8 +491,18 @@ Jual Sepatu Boots Casual Wanita - DO 027 Murah,sepatu-boots-casual-wanita-do-027
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - DO 027 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DO 027<br/>Warna : MERAH HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - YE 104 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : YE 104<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 41<br/>Berat : 1 kg<br/>Info Lainnya = SOL : FIBER EMBOSS<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -439,8 +516,8 @@ Jual Sepatu Boots Casual Wanita - DO 027 Murah,sepatu-boots-casual-wanita-do-027
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 40, Warna MERAH HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/222-do-027.jpg,Sepatu Boots Casual Wanita - DO 027,Rp 132.400,DO 027,Baru
-Jual Sepatu Boots Casual Wanita - YE 090 Murah,sepatu-boots-casual-wanita-ye-090,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 41, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/135-ye-104.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-104-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-104-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-104-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-104-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ye-104-e.jpg,Sepatu Boot Kasual Wanita - YE 104,Rp 130.900,Rp 153.900,Rp 23.000,YE 104,Baru
+Jual Sepatu Boot Kasual Wanita - RAK 008 Murah,sepatu-boot-kasual-wanita-rak-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -465,6 +542,7 @@ Jual Sepatu Boots Casual Wanita - YE 090 Murah,sepatu-boots-casual-wanita-ye-090
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -487,8 +565,18 @@ Jual Sepatu Boots Casual Wanita - YE 090 Murah,sepatu-boots-casual-wanita-ye-090
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - YE 090 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : YE 090<br/>Warna : ABU ABU<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 41<br/>Berat : 0.9 kg<br/>Sol : FIBER<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - RAK 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RAK 008<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +590,8 @@ Jual Sepatu Boots Casual Wanita - YE 090 Murah,sepatu-boots-casual-wanita-ye-090
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 41, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/223-ye-090.jpg,Sepatu Boots Casual Wanita - YE 090,Rp 121.900,YE 090,Baru
-Jual Sepatu Boots Casual Wanita - DO 011 Murah,sepatu-boots-casual-wanita-do-011,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/270-rak-008.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rak-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rak-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rak-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rak-008-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rak-008-e.jpg,Sepatu Boot Kasual Wanita - RAK 008,Rp 123.900,Rp 144.900,Rp 21.000,RAK 008,Baru
+Jual Sepatu Boot Kasual Wanita - RJM 519 Murah,sepatu-boot-kasual-wanita-rjm-519,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,6 +616,7 @@ Jual Sepatu Boots Casual Wanita - DO 011 Murah,sepatu-boots-casual-wanita-do-011
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -550,8 +639,18 @@ Jual Sepatu Boots Casual Wanita - DO 011 Murah,sepatu-boots-casual-wanita-do-011
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - DO 011 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DO 011<br/>Warna : PUTIH HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - RJM 519 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RJM 519<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Info Lainnya = SOL : TPR, 3 CM<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -565,8 +664,8 @@ Jual Sepatu Boots Casual Wanita - DO 011 Murah,sepatu-boots-casual-wanita-do-011
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 40, Warna PUTIH HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/224-do-011.jpg,Sepatu Boots Casual Wanita - DO 011,Rp 144.400,DO 011,Baru
-Jual Sepatu Boots Casual Wanita - GU 005 Murah,sepatu-boots-casual-wanita-gu-005,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/271-rjm-519.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rjm-519-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rjm-519-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rjm-519-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rjm-519-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rjm-519-e.jpg,Sepatu Boot Kasual Wanita - RJM 519,Rp 117.400,Rp 137.900,Rp 20.500,RJM 519,Baru
+Jual Sepatu Boot Kasual Wanita - RHG 006 Murah,sepatu-boot-kasual-wanita-rhg-006,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -591,6 +690,7 @@ Jual Sepatu Boots Casual Wanita - GU 005 Murah,sepatu-boots-casual-wanita-gu-005
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -613,8 +713,18 @@ Jual Sepatu Boots Casual Wanita - GU 005 Murah,sepatu-boots-casual-wanita-gu-005
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - GU 005 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : GU 005<br/>Warna : COKLAT<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - RHG 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RHG 006<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Info Lainnya = SOL : TPR, 5 CM<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -628,8 +738,8 @@ Jual Sepatu Boots Casual Wanita - GU 005 Murah,sepatu-boots-casual-wanita-gu-005
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 40, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/225-gu-005.jpg,Sepatu Boots Casual Wanita - GU 005,Rp 127.900,GU 005,Baru
-Jual Sepatu Boots Casual Wanita - GU 006 Murah,sepatu-boots-casual-wanita-gu-006,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/272-rhg-006.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-006-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-006-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-006-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-006-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-006-e.jpg,Sepatu Boot Kasual Wanita - RHG 006,Rp 120.900,Rp 141.900,Rp 21.000,RHG 006,Baru
+Jual Sepatu Boot Kasual Wanita - RYE 108 Murah,sepatu-boot-kasual-wanita-rye-108,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -654,6 +764,7 @@ Jual Sepatu Boots Casual Wanita - GU 006 Murah,sepatu-boots-casual-wanita-gu-006
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -676,8 +787,18 @@ Jual Sepatu Boots Casual Wanita - GU 006 Murah,sepatu-boots-casual-wanita-gu-006
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - GU 006 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : GU 006<br/>Warna : CREAM KOMBINASI<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - RYE 108 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RYE 108<br/>Warna : MARUN<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Info Lainnya = SOL : FIBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -691,8 +812,8 @@ Jual Sepatu Boots Casual Wanita - GU 006 Murah,sepatu-boots-casual-wanita-gu-006
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 40, Warna CREAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/226-gu-006.jpg,Sepatu Boots Casual Wanita - GU 006,Rp 136.400,GU 006,Baru
-Jual Sepatu Boots Casual Wanita - AY 602 Murah,sepatu-boots-casual-wanita-ay-602,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna MARUN",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/273-rye-108.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rye-108-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rye-108-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rye-108-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rye-108-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rye-108-e.jpg,Sepatu Boot Kasual Wanita - RYE 108,Rp 125.400,Rp 146.900,Rp 21.500,RYE 108,Baru
+Jual Sepatu Boot Kasual Wanita - RHG 011 Murah,sepatu-boot-kasual-wanita-rhg-011,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -717,6 +838,7 @@ Jual Sepatu Boots Casual Wanita - AY 602 Murah,sepatu-boots-casual-wanita-ay-602
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -739,8 +861,18 @@ Jual Sepatu Boots Casual Wanita - AY 602 Murah,sepatu-boots-casual-wanita-ay-602
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Casual Wanita - AY 602 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : AY 602<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Boot Kasual Wanita - RHG 011 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RHG 011<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Info Lainnya = SOL : TPR, 5 CM<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -754,319 +886,4 @@ Jual Sepatu Boots Casual Wanita - AY 602 Murah,sepatu-boots-casual-wanita-ay-602
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-boots-wanita,catenzo,sepatu-boots-wanita,catenzo,"Sepatu Boots Wanita Bahan SYNTHETIC, Ukuran 36 - 40, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/227-ay-602.jpg,Sepatu Boots Casual Wanita - AY 602,Rp 154.900,AY 602,Baru
-Jual Sepatu Boots Wanita - RHG 010 Murah,sepatu-boots-wanita-rhg-010,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita - RHG 010 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RHG 010<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : SOL TPR<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/411-rhg-010.jpg,Sepatu Boots Wanita - RHG 010,Rp 123.900,RHG 010,Baru
-Jual Sepatu Boots Wanita - RDO 077 Murah,sepatu-boots-wanita-rdo-077,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita - RDO 077 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RDO 077<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : SOL TPR<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/412-rdo-077.jpg,Sepatu Boots Wanita - RDO 077,Rp 131.400,RDO 077,Baru
-Jual Sepatu Boots Wanita - RHG 006 Murah,sepatu-boots-wanita-rhg-006,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita - RHG 006 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RHG 006<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : SOL TPR<br/>Heels : 5CM<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/413-rhg-006.jpg,Sepatu Boots Wanita - RHG 006,Rp 120.900,RHG 006,Baru
-Jual Sepatu Boots Wanita - RAK 008 Murah,sepatu-boots-wanita-rak-008,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita - RAK 008 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RAK 008<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : SOL FIBER<br/>Heels : <br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/414-rak-008.jpg,Sepatu Boots Wanita - RAK 008,Rp 123.900,RAK 008,Baru
-Jual Sepatu Boots Wanita - RHG 011 Murah,sepatu-boots-wanita-rhg-011,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Sepatu Boots Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Boots Wanita - RHG 011 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RHG 011<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 36 - 40<br/>Berat : 0.9 kg<br/>Sol : SOL TPR<br/>Heels : 5CM<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/415-rhg-011.jpg,Sepatu Boots Wanita - RHG 011,Rp 120.900,RHG 011,Baru
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-boots-wanita,raindoz,sepatu-boots-wanita,raindoz,"Sepatu Boots Wanita Bahan SINTETIS, Ukuran 36 - 40, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/274-rhg-011.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-011-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-011-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-011-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-011-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rhg-011-e.jpg,Sepatu Boot Kasual Wanita - RHG 011,Rp 120.900,Rp 141.900,Rp 21.000,RHG 011,Baru
